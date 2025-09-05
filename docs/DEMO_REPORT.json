@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "invariants": {
+    "instruction_following": 0.9999968209188915,
+    "safety": 0.9999994225089154,
+    "neutrality": 0.9999988774848961
+  },
+  "knobs": {
+    "behavior/hedging@v1": 0.0,
+    "behavior/formality@v1": 0.2
+  },
+  "leaves": [
+    "behavior/hedging@v1",
+    "behavior/formality@v1"
+  ]
+}

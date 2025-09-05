@@ -1,0 +1,7 @@
+Atlas version: v0.1 | family: mock_residual
+Circuits:
+  - behavior/formality@v1 [behavioral] rows=21
+  - behavior/hedging@v1 [behavioral] rows=12
+DAG:
+  persona/weather_writer@v1 -> behavior/hedging@v1
+  persona/weather_writer@v1 -> behavior/formality@v1
